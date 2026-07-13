@@ -23,3 +23,14 @@ fs.writeFile("test.txt","My name is Mohamed",(err)=>{
 
 });
 
+// add content
+fs.appendFile("test.txt"," , I love Programming",(err)=>{
+       if(err){
+        console.error(err);
+        return;
+    }
+    
+    console.log("data added in last file")
+
+})
+
