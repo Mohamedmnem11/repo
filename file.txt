@@ -1,0 +1,9 @@
+Merge Conflict: يحدث عندما يعدل شخصان نفس الملف في نفس المكان.
+
+Merge Base: أحدث commit مشترك بين فرعين عند الدمج.
+
+Fork: نسخة من مستودع على GitHub لشخص آخر.
+
+git fetch vs git pull: fetch يجلب التغييرات دون دمج، pull يجلب ويدمج.
+
+git merge vs git rebase: merge يدمج الفروع، rebase يعيد تطبيق التغييرات على رأس فرع آخر.
