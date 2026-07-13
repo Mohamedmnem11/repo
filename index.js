@@ -26,7 +26,7 @@ fs.writeFile("test.txt","My name is Mohamed",(err)=>{
 // add content
 fs.appendFile("test.txt"," , I love Programming",(err)=>{
        if(err){
-        console.error(`error :${err}`);
+        console.error(err);
         return;
     }
     
@@ -34,3 +34,14 @@ fs.appendFile("test.txt"," , I love Programming",(err)=>{
 
 })
 
+
+
+// delete file
+fs.unlink("test.txt",(err)=>{
+       if(err){
+        console.error(err);
+        return;
+    }
+    
+    console.log("file deleted")
+})
